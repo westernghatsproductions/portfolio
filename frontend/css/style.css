@@ -738,7 +738,7 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  color: white;
+  color: var(--black);
   flex-wrap: wrap;
 }
 .service-container article span {
@@ -759,7 +759,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   transition: transform 0.3s, box-shadow 0.3s; /* Smooth hover effect */
   max-width: 400px;
-  background-color: var(--secondary);
+  background-color: var(--primary);
 }
 
 /* Hover Effect */
