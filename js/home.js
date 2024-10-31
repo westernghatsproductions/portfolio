@@ -200,9 +200,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     let html = `
-      <div class="container">
+      <div class="container about-section">
         <div class="row g-5">
-          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div class="  col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="img-border">
               <img class="img-fluid" src=${data.image_url} alt="" />
             </div>
@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="carousel-item ${idx == 0 ? "active" : ""}">
             <img class="w-100" src=${
               item.image_url
-            } alt="Image" style="height: calc(100vh - 124px);object-fit:cover;" />
+            } alt="Image" style="object-fit:cover;" />
             <div class="carousel-caption">
               <div class="p-3 banner-text-container" style="max-width: 900px">
                 <h4 class="text-white  text-uppercase mb-4 animated zoomIn">
@@ -356,3 +356,4 @@ document.addEventListener("DOMContentLoaded", function () {
           )
           .join("")}
         </div>`;
+// height: calc(100vh - 124px);
