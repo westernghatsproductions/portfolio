@@ -63,7 +63,7 @@
 .navbar .dropdown-toggle::after {
   border: none;
   content: "\f107";
-  font-family: "Font Awesome 5 Free";
+  font-family: "Titillium Web", sans-serif;
   font-weight: 900;
   vertical-align: middle;
   margin-left: 8px;
@@ -645,7 +645,7 @@
 .project-container {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+
   color: black;
 }
 .project-items {
@@ -653,6 +653,8 @@
   grid-template-columns: 2fr 3fr;
   column-gap: 2rem;
   grid-template-rows: 1fr;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid gray;
 }
 
 .project-items .project-poster img {
@@ -701,18 +703,32 @@
   gap: 0.4rem;
   align-items: center;
 }
-
+.project-item-mobile {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  display: none;
+}
+.project-item-desktop {
+  display: flex;
+}
 @media (max-width: 768px) {
-  .project-items {
+  .project-item-mobile {
     display: flex;
-    flex-direction: column-reverse;
-    gap: 2rem;
+  }
+  .project-item-desktop {
+    display: none;
   }
   .project-container .project-title {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 1rem;
   }
+}
+.project-view-more {
+  display: flex;
+  justify-content: center;
 }
 .youtube-trailer {
   position: relative;

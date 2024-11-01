@@ -41,7 +41,8 @@ document.addEventListener("DOMContentLoaded", function () {
                   <small>${data.founder_designation}</small>
                 </div>
               </div>
-              <a class="btn btn-primary rounded-pill py-3 px-5" href=""
+              
+              <a class="btn btn-primary rounded-pill py-3 px-5" href="about.html"
                 >Read More</a
               >
             </div>
