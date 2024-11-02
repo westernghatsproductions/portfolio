@@ -631,7 +631,6 @@
   transition: all 0.5s ease;
 }
 
-
 .portfolio-item .item {
   /*width:303px;*/
   float: left;
@@ -653,6 +652,7 @@
   grid-template-rows: 1fr;
   padding-bottom: 2rem;
   border-bottom: 1px solid gray;
+  margin-top: 1rem;
 }
 
 .project-items .project-poster img {
@@ -709,7 +709,7 @@
   display: none;
 }
 .project-item-desktop {
-  display: flex;
+  display: grid;
 }
 @media (max-width: 768px) {
   .project-item-mobile {
@@ -727,6 +727,7 @@
 .project-view-more {
   display: flex;
   justify-content: center;
+  margin-top: 1rem;
 }
 .youtube-trailer {
   position: relative;
