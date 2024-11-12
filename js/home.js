@@ -279,7 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   class="flex-shrink-0 rounded-circle"
                   src=${data.founder_image_url}
                   alt=""
-                  style="width: 50px; height: 50px"
+                  style="width: 50px; height: 50px; object-fit:cover;object-position:center"
                 />
                 <div class="ps-4">
                   <h6>${data.founder_name}</h6>

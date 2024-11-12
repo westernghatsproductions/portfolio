@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="row g-5">
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div class="img-border">
-              <img class="img-fluid" src=${data.image_url} alt="" />
+              <img class="img-fluid" src=${data.image_url} alt=""  />
             </div>
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   class="flex-shrink-0 rounded-circle"
                   src=${data.founder_image_url}
                   alt=""
-                  style="width: 50px; height: 50px"
+                  style="width: 50px; height: 50px; object-fit:cover;object-position:center"
                 />
                 <div class="ps-4">
                   <h6>${data.founder_name}</h6>
