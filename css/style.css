@@ -804,9 +804,7 @@
 }
 
 @media (max-width: 786px) {
-  .footer-mail {
-    font-size: 0.8rem !important;
-  }
+
   .logo-image {
     width: 50px !important;
     height: 50px !important;
@@ -826,7 +824,21 @@
   background-color: var(--secondary);
   color: var(--secondary);
 }
+@media (max-width:330px){
+    .footer-contact p{
+    font-size: 0.9rem !important;
+  }
+}
+.footer-address{
+display: flex;
+flex-direction: row;
+gap: 5px;
+}
+.footer-address i{
+margin-top: 7px;
 
+
+}
 @media (max-width: 768px) {
   .about-section p {
     font-size: 0.9rem;
